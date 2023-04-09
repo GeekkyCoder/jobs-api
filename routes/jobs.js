@@ -7,6 +7,7 @@ const {
   deleteJob,
 } = require("../controllers/jobs");
 
+
 jobRouter.post("/", createJob);
 jobRouter.get("/", getAllJobs);
 jobRouter.get("/:id", getJob);
